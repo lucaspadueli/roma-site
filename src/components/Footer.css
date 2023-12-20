@@ -1,0 +1,11 @@
+.footer{
+    background: linear-gradient(to bottom, #121212,black);
+    height: 13vh;
+}
+
+#direitos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2vh;
+}

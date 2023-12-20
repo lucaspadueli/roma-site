@@ -36,9 +36,6 @@ const NavBar = () => {
             </ul>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link" href="about">Membros</a>
-          </li>
-          <li class="nav-item mx-2">
             <a class="nav-link" href="about">Contatos</a>
           </li>
           

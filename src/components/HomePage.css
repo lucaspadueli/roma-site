@@ -1,14 +1,14 @@
 .home-page{
-    background-image: url('../images/adelin-preda--tOr_T4qTpQ-unsplash.jpg');
+    background-color: #121212;
     height: 100%;
 }
 
 .logo-container{
    
     margin-bottom: 3vh;
-    width:max-content;
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex: 1;
    
 }
@@ -16,52 +16,113 @@
 #logo-home{
     width: 75vw;
     align-items: center;
-    
-   
+    opacity: 0;
+    animation: fadeInAnimation 2s ease-in-out forwards;
 }
+.plataformas-container ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    flex: 0 0 auto;
+    padding-left: 0;
+    margin-bottom: 2vh;
+    animation: fadeInAnimation 2s ease-in-out forwards;
+    
+}
+h1{
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+    color: rgb(172, 169, 172);
+    margin-left: 3vw;
+    animation: fadeInAnimation 2s ease-in-out forwards;
+}
+.novo-lancamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7vh;
+    animation: fadeInAnimation 2s ease-in-out forwards;
+}
+p{
+    color: rgb(172, 169, 172);
+    font-size: 0.9em;
+    animation: fadeInAnimation 2s ease-in-out forwards;
+}
+@keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
 
 .header-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 5vh;
 }
 
 .plataformas-container{
     display: flex;
     align-items: center;
+    flex-direction: column;
     
 }
 
-.plataformas-container ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 80%;
-    flex: 0 0 auto;
-    padding-left: 0;
-    margin-bottom: 2vh;
-    
+#escute-p{
+    padding-right: 3vw;
 }
+
 
 .plataformas-container ul a{
     padding-right: 3vw;
 }
 
 .stream-logo{
-    width: 8vw;
+    width: 12vw;
 }
 
-h1{
-    margin-top: 3vh;
-    color: white;
+
+h3{
+    color: rgb(172, 169, 172);
+}
+h4{
+    color: rgb(172, 169, 172);
+    margin-bottom: 4vh;
+    margin-top: 5vh;
 }
 
-p{
-    color: white;
-}
 
 .com-voce-clipe{
-    width: 70vw;
+    width: 90vw;
     height: 50vh;
     border-radius: 15px;
+    margin-bottom: 5vh;
 }
+
+.social-media-list{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.social-media-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+#anel-logo{
+    width: 100vw;
+    border-radius: 90vw;
+    mask-image: linear-gradient(to right, transparent 10%, black 30%, black 80%, transparent 95%);
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
