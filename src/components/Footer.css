@@ -1,11 +1,25 @@
 .footer{
-    background: linear-gradient(to bottom, #121212,black);
-    height: 13vh;
+    background: linear-gradient(to bottom, rgb(0, 0, 0),#121212);
+    padding: 1vh;
 }
 
 #direitos{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 2vh;
+
+}
+
+@media (min-width: 992px){
+    .footer{
+        background: linear-gradient(to bottom, #010e24c4,black);
+        height:fit-content;
+        padding: 2vh;
+    }
+    #direitos{
+        padding-top: 2vh;
+        margin-top: 0;
+        
+    }
+    
 }

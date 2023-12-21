@@ -8,20 +8,22 @@ import AppleMusic from "../images/apple-music.png";
 import { Link } from "react-router-dom";
 import InstaLogo from "../images/insta-logo.png";
 import YtLogo from "../images/youtube-logo-png-2073.png";
-import AnelDeSaturno from "../images/anel-foto.jpeg";
+
+import AnelDeSaturno from "../images/gif-anel.gif";
 import "./HomePage.css";
 const HomePage = () => {
   return (
     <div className="home-page">
       <NavBar />
-      <h1>Banda Roma</h1>
+      <div className="novo-lancamento">
+      
+        <img id="anel-logo" src={AnelDeSaturno} alt="animacao-anel" />
+        <Link id = "pre-save-btn" to="https://onerpm.link/922551188377">Faça aqui o Pré-Save</Link>
+      </div>
       <div className="header-container">
-        <div className="logo-container">
-          <img id="logo-home" src={LogoRoma} alt="logo-amarela" />
-        </div>
         <hr />
         <div className="plataformas-container">
-          <p id="escute-p">Escute em:</p>
+          <p id="escute-p">Disponível em:</p>
           <ul>
             <Link
               className="link-str"
@@ -61,15 +63,9 @@ const HomePage = () => {
 
       <hr />
 
-      <div className="novo-lancamento">
-        <h3> Próximo lançamento dia 22/12 </h3>
-        <img id="anel-logo" src={AnelDeSaturno} alt="animacao-anel" />
-        <Link to="https://onerpm.link/922551188377">Faça aqui o Pré Save</Link>
-      </div>
+   
 
-      <hr />
-
-      <h4>Confira o Vídeo Clipe de "Com Você"</h4>
+      <p>Confira o Vídeo Clipe de "Com Você"</p>
 
       <iframe
         className="com-voce-clipe"
@@ -81,7 +77,7 @@ const HomePage = () => {
       ></iframe>
 
       <hr />
-      <h3> Siga nas Redes Sociais </h3>
+      <p> Siga nas Redes Sociais </p>
       <div className="social-media-container">
         <ul className="social-media-list">
           <Link

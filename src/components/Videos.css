@@ -1,0 +1,48 @@
+.videos-page{
+   background-color: #121212;
+   height: 100vh;
+}
+.videos-container{
+    background-color: #121212;
+}
+#videos-p {
+    padding-top: 2vh;
+    margin-bottom: 3vh;
+    font-size: 1.2em;
+}
+
+#teaser-anel{
+    width: 65vw;
+    height: 40vh;
+    border-radius: 20px;
+    background-color: #000000;
+    margin-bottom: 5vh;
+}
+
+.com-voce-video-page{
+    width: 65vw;
+    height: 40vh;
+    border-radius: 20px;
+}
+
+@media (min-width: 992px){
+    .videos-page{
+        background:none;
+        height: 100vh;
+     }
+    .com-voce-video-page{
+        width: 30vw;
+       
+        border-radius: 20px;
+    }
+
+    #teaser-anel{
+        width: 30vw;
+        border-radius: 20px;
+        background-color: #000000;
+        margin-bottom: 8vh;
+    }
+    .videos-container{
+        background:none;
+    }
+}

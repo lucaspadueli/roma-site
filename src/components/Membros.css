@@ -1,0 +1,39 @@
+.musico-foto{
+    width: 90vw;
+    border-radius: 20px;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+.texto-musico{
+   text-align: justify;
+    width: 80%;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    
+}
+.musico-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 992px){
+    .musico-foto{
+        width: 40vw;
+        border-radius: 20px;
+        margin-top: 7vh;
+        margin-bottom: 2vh;
+    }
+    .texto-musico{
+        color: rgb(244, 244, 244);
+        background-color: rgba(0, 0, 0, 0.653);
+        text-align: justify;
+        width: 50%;
+        padding: 2vw;
+        margin-top: 2vh;
+        margin-bottom: 4vh;
+        font-size: 1.2em;
+        border-radius: 15px;
+    }
+}

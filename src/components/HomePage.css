@@ -64,7 +64,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 5vh;
+    margin-bottom: 1vh;
 }
 
 .plataformas-container{
@@ -88,12 +88,14 @@ p{
 }
 
 
-h3{
+p{
     color: rgb(172, 169, 172);
+    font-size: 1em;
 }
-h4{
+p{
     color: rgb(172, 169, 172);
     margin-bottom: 4vh;
+    font-size: 1em;
     margin-top: 5vh;
 }
 
@@ -115,14 +117,67 @@ h4{
 .social-media-container{
     display: flex;
     justify-content: center;
-    margin-top: 5vh;
+    margin-top: 3vh;
 }
 
 #anel-logo{
-    width: 100vw;
-    border-radius: 90vw;
-    mask-image: linear-gradient(to right, transparent 10%, black 30%, black 80%, transparent 95%);
-    margin-bottom: 5vh;
-    margin-top: 5vh;
+    width: 90vw;
+    border-radius: 10vw;
+    margin-top: 3vh;
 }
 
+#pre-save-btn{
+    background-color:#524572;
+    color: #FBFDFD;
+    text-decoration: none;
+    border-radius: 25px;
+    width: 40vw;
+    font-size: 1em;
+    margin-top: 2vh;
+    padding: 3vw;
+    border: 1px solid #FBFDFD ;
+}
+
+@media (min-width: 992px){
+    #anel-logo{
+        
+        width: 22vw;
+        border-radius: 2vw;
+    }
+    .home-page{
+        background:none;
+        height: 100%;
+    }
+
+    #pre-save-btn{
+        background-color:#524572;
+        color: #FBFDFD;
+        text-decoration: none;
+        border-radius: 25px;
+        width: 15vw;
+        font-size: 1em;
+        margin-top: 4vh;
+        padding: 1vw;
+        border: 1px solid #FBFDFD ;
+    }
+    .stream-logo{
+        width: 4vw;
+    }
+    .com-voce-clipe{
+        width: 40vw;
+        border-radius: 15px;
+        margin-bottom: 5vh;
+    }
+      
+      p{
+        color: rgb(255, 255, 255);
+        font-size: 1.1em;
+        background-color: rgba(0, 0, 0, 0.102);
+        width: fit-content;
+        margin:2vh auto;
+        padding: 1vw;
+        border-radius: 20px;
+        
+      }
+     
+}
