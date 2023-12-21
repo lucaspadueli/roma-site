@@ -2,8 +2,6 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Route,Routes } from 'react-router-dom';
 import HomePage from './components/HomePage';
-import NavBar from './components/NavBar';
-import Footer from './components/Footer';
 import Video from "./components/Video";
 import LucasPage from './components/LucasPage';
 import VitorPage from './components/VitorPage';
