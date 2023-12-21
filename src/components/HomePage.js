@@ -1,7 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
-import LogoRoma from "../images/IMG_8982.PNG";
 import Spotify from "../images/spotify-logo-png-7078.png";
 import Amazon from "../images/amazon-music.png";
 import AppleMusic from "../images/apple-music.png";

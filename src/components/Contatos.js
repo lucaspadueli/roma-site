@@ -1,5 +1,4 @@
 import NavBar from "./NavBar";
-import Footer from "./Footer";
 import "./Contatos.css";
 
 const Contatos = () => {

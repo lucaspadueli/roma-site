@@ -26,7 +26,7 @@ const NavBar = () => {
             <a class="nav-link" href="/videos">Vídeos</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="." role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Membros
             </a>
             <ul class="dropdown-menu justify-content-center align-items-center fs-8">
